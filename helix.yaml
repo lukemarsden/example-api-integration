@@ -1,5 +1,5 @@
 name: My Test Helix App
-description: This is a test Helix app
+description: This is a test Helix app. Try asking what job Marcus is applying for
 assistants:
 - name: My Example Assistant
   description: This is an example assistant with both apis and gptscripts
