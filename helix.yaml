@@ -1,9 +1,9 @@
-name: My Test Helix App
-description: This is a test Helix app. Try asking what job Marcus is applying for
+name: Recruitment tool
+description: Ask me questions about the hiring pipeline
 assistants:
-- name: My Example Assistant
+- model: llama3:instruct
   apis:
-    - name: Demo Hiring Pipeline API
-      description: List all job vacancies, optionally filter by job title and/or candidate name
-      url: https://demos.tryhelix.ai
-      schema: ./openapi/jobvacancies.yaml
+  - name: Demo Hiring Pipeline API
+    description: List all job vacancies, optionally filter by job title and/or candidate name
+    url: https://demos.tryhelix.ai
+    schema: ./openapi/jobvacancies.yaml
