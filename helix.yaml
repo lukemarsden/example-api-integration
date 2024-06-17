@@ -1,5 +1,5 @@
 name: Recruitment tool
-description: Ask me questions about the hiring pipeline
+description: Ask me questions about the hiring pipeline, like "What job is Marcus applying for?"
 assistants:
 - model: llama3:instruct
   apis:
